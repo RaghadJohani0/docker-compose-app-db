@@ -1,2 +1,15 @@
 # docker-compose-app-db
-Production-like multi-container backend system using Docker Compose with application, database, network, and persistent volumes.
+Multi-container Docker Compose setup demonstrating a real-world backend system.
+
+## Components
+- Application Service
+- PostgreSQL Database
+- Internal Docker Network
+- Persistent Volumes
+
+## Architecture
+App ↔ Database via Docker Network
+
+## Run
+```bash
+docker compose up -d
